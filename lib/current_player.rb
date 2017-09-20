@@ -11,9 +11,9 @@ end
 def current_player(board)
   turn = turn_count(board)
   if turn%2 == 0
-    current_player = "0"
-  else
     current_player = "X"
+  else
+    current_player = "0"
   end
   current_player
 end
